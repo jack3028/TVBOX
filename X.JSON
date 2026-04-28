@@ -11,7 +11,7 @@
       "可搜索的": 0,
       "快速搜索": 0,
       "changeable": 0
-    }
+    },
     {
       "键": "MDrive",
       "名称": "🗂我的云盘┃我配置"
@@ -22,11 +22,11 @@
       "可搜索的": 1,
       "style": {
         "类型": "椭圆形"
-      }，
+      }
       "ext": {
         "云盘": "tvfan/Cloud-drive.txt"
       }
-    }
+    },
     {
       "key": "玩偶",
       "名称": "👽玩偶┃4K弹幕"
@@ -39,7 +39,7 @@
       "ext": {
         "云盘": "tvfan/Cloud-drive.txt"
       }
-    }
+    },
     {
       "key": "csp_MiSou",
       "名称": "🔍米搜┃盘搜"
@@ -52,10 +52,10 @@
     },
     {
       "key": "WexkuihuatvGuard",
-      "name": "💥瓜子┃葵花💥",
-      "type": 3,
+      "名称": "💥瓜子┃葵花💥",
+      "类型": 3,
       "api": "csp_WexkuihuatvGuard",
-      "searchable": 1,
+      "可搜索的": 1,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/a76ae1d52ff79d12d655caaf7499c8c7.txt"
     },
