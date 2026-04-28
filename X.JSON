@@ -1,61 +1,70 @@
 {
   "spider": "https://oss4liview.moji.com/thd_file/2026/04/18/e05e0855ab09b267947e7ba3b7062c6b.jpg;md5;927158dd12133ed25e056d3659a6b3ca",
-  "壁纸": "https://深色壁纸.xxooo.cf/"
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "点我切源"
-      "名字": "🐮皮皮子🐮"
-      "类型": 3,
+      "key": "点我切源",
+      "name": "🐮皮皮子🐮",
+      "type": 3,
       "api": "csp_DouDouGuard",
-      "索引": 1,
-      "可搜索的": 0,
-      "快速搜索": 0,
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0
     },
     {
-      "键": "MDrive",
-      "名称": "🗂我的云盘┃我配置"
-      "类型": 3,
+      "key": "MDrive",
+      "name": "🗂我的云盘┃我配置",
+      "type": 3,
       "api": "csp_MyDriveGuard",
       "changeable": 0,
-      "索引": 0,
-      "可搜索的": 1,
+      "indexs": 0,
+      "searchable": 1,
       "style": {
-        "类型": "椭圆形"
-      }
+        "type": "oval"
+      },
       "ext": {
-        "云盘": "tvfan/Cloud-drive.txt"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
       "key": "玩偶",
-      "名称": "👽玩偶┃4K弹幕"
-      "类型": 3,
+      "name": "👽玩偶┃4K弹幕",
+      "type": 3,
       "api": "csp_WoGGGuard",
-      "超时时间": 30,
-      "可搜索的": 1,
-      "快速搜索": 1,
+      "timeout": 30,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "云盘": "tvfan/Cloud-drive.txt"
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
       }
     },
     {
       "key": "csp_MiSou",
-      "名称": "🔍米搜┃盘搜"
-      "类型": 3,
-      "超时": 12,
-      "可搜索的": 1,
-      "快速搜索": 0,
-      "api": "csp_MiSou"
+      "name": "🔍米搜┃盘搜",
+      "type": 3,
+      "timeout": 12,
+      "searchable": 1,
+      "quickSearch": 0,
+      "api": "csp_MiSou",
       "jar": "https://cdn2.wemiaow.com/20260401232042-14-Vwa30U.jpg"
     },
     {
+      "key": "賤賤",
+      "name": "💥賤片┃p2p💥",
+      "type": 3,
+      "api": "csp_WexJianpianGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "https://nos.netease.com/ysf/a76ae1d52ff79d12d655caaf7499c8c7.txt"
+    },
+    {
       "key": "WexkuihuatvGuard",
-      "名称": "💥瓜子┃葵花💥",
-      "类型": 3,
+      "name": "💥葵花┃瓜子💥",
+      "type": 3,
       "api": "csp_WexkuihuatvGuard",
-      "可搜索的": 1,
+      "searchable": 1,
       "changeable": 1,
       "jar": "https://nos.netease.com/ysf/a76ae1d52ff79d12d655caaf7499c8c7.txt"
     },
@@ -86,15 +95,6 @@
       "jar": "https://nos.netease.com/ysf/a76ae1d52ff79d12d655caaf7499c8c7.txt"
     },
     {
-      "key": "賤賤",
-      "name": "💥賤片┃p2p💥",
-      "type": 3,
-      "api": "csp_WexJianpianGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "https://nos.netease.com/ysf/a76ae1d52ff79d12d655caaf7499c8c7.txt"
-    },
-    {
       "key": "3QQQ",
       "name": "🍅小米┃大鹅",
       "type": 3,
@@ -104,7 +104,7 @@
     },
     {
       "key": "jarcai",
-      "name": "🍅文才┃弹幕🍅",
+      "name": "🍅文才┃弹幕",
       "type": 3,
       "api": "csp_Wcai",
       "ext": "https://www.jxshdzs.com/",
