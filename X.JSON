@@ -15,6 +15,33 @@
       "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
     },
     {
+      "key": "WexGuaZi",
+      "name": "瓜子┆二",
+      "type": 3,
+      "api": "csp_WexGuaZiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "賤賤",
+      "name": "贱片┆二",
+      "type": 3,
+      "api": "csp_WexJianPianGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexWenCai",
+      "name": "文才┆二",
+      "type": 3,
+      "api": "csp_WexWenCaiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "key": "WexHanXiaoQuan",
       "name": "韩果┆二",
       "type": 3,
