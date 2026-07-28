@@ -4,455 +4,180 @@
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
-      "key": "NewDouBan",
-      "名称": "皮皮┆小二"
-      "类型": 3,
+      "key": "Douban",
+      "name": "皮皮┃二",
+      "type": 3,
       "api": "csp_NewDouBanGuard",
-      "索引": 1,
-      "可搜索的": 0,
-      "快速搜索": 0,
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 0,
       "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-    }
+    },
     {
-      "key": "Doubana"
-      "名称": "豆豆┆小二"
-      "类型": 3,
+      "key": "Doubanaaaa",
+      "name": "豆瓣┃二",
+      "type": 3,
       "api": "csp_NewDouBanGuard",
-      "索引": 1,
-      "可搜索的": 0,
-      "快速搜索": 0,
+      "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 0,
       "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-    }
+    },
     {
       "key": "Wexconfig",
-      "名称": "配置┆小二"
-      "类型": 3,
-      "api": "csp_WexConfigGuard",
-      "可搜索的": 0,
+      "name": "配置┃中心",
+      "type": 3,
+      "api": "csp_PanConfigGuard",
+      "searchable": 0,
       "changeable": 0,
-      "索引": 0,
+      "indexs": 0,
       "style": {
-        "类型": "列表"
+        "type": "list"
       }
-    }
+    },
     {
-      "key": "二小",
-      "名称": "‍指南┆小二‍"
-      "类型": 3,
-      "api": "csp_NewErXiaoGuard"
-      "可搜索的": 1,
-      "快速搜索": 1,
-      "changeable": 0
-    }
-    {
-      "key": "玩偶",
-      "名称": "玩偶┆小二‍"
-      "类型": 3,
-      "api": "csp_NewWoggGuard",
-      "可搜索的": 1,
-      "快速搜索": 1,
-      "changeable": 0
-    }
-    {
-      "key": "NewZhiZhen",
-      "名称": "至臻┆小二",
-      "类型": 3,
-      "api": "csp_新西兰卫士",
-      "可搜索的": 1,
-      "快速搜索": 1,
-      "changeable": 0
-    }
-    {
-      "key": "NewGuanYing",
-      "名称": "观影┆小二",
-      "类型": 3,
-      "api": "csp_NewGuanYingGuard",
-      "可搜索的": 1,
-      "快速搜索": 1,
+      "key": "MyPan",
+      "name": "我的┃网盘",
+      "type": 3,
+      "api": "csp_MyPanGuard",
+      "searchable": 0,
       "changeable": 0,
-      "timeout": 120
-    },
-    {
-      "key": "NewJuTou",
-      "name": "剧透┆小二",
-      "type": 3,
-      "api": "csp_NewJuTouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "NewHuBan",
-      "name": "虎斑┆小二",
-      "type": 3,
-      "api": "csp_NewHuBanGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "NewMuOu",
-      "name": "木偶┆小二",
-      "type": 3,
-      "api": "csp_NewMuOuGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      }
     },
     {
       "key": "WexHanXiaoQuan",
-      "name": "韩剧┆小二",
+      "name": "韩剧┃二",
       "type": 3,
-      "api": "csp_WexHanXiaoQuanGuard",
+      "api": "csp_WexAiHanXiaoQuanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexGuaZi",
-      "name": "瓜子┆小二",
+      "key": "WexAiGuaZi",
+      "name": "瓜子┃二",
       "type": 3,
-      "api": "csp_WexGuaZiGuard",
+      "api": "csp_WexAiGuaZiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiDuBoKu",
+      "name": "独播┃二",
+      "type": 3,
+      "api": "csp_WexAiDuBoKuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiYueYue",
+      "name": "闪电┃二",
+      "type": 3,
+      "api": "csp_WexAiYueYueGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiWenCai",
+      "name": "文才┃二",
+      "type": 3,
+      "api": "csp_WexAiWenCaiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiV6DaShiXiong",
+      "name": "师兄┃二",
+      "type": 3,
+      "api": "csp_WexAiV6DaShiXiongGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiV6TeGou",
+      "name": "太狗┃二",
+      "type": 3,
+      "api": "csp_WexAiV6TeGouGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
       "key": "賤賤",
-      "name": "贱片┆小二",
+      "name": "贱片┃二",
       "type": 3,
-      "api": "csp_WexJianPianGuard",
+      "api": "csp_WexAiJianPianGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexWenCai",
-      "name": "文才┆小二",
+      "key": "WexAiYiYs",
+      "name": "伊影┃二",
       "type": 3,
-      "api": "csp_WexWenCaiGuard",
+      "api": "csp_WexAiYiYsGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexDuBoKu",
-      "name": "独播┆小二",
+      "key": "WexAiReBo",
+      "name": "热播┃二",
       "type": 3,
-      "api": "csp_WexDuBoKuGuard",
+      "api": "csp_WexAiReBoGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexV6DaShiXiong",
-      "name": "师兄┆小二",
+      "key": "WexAiBoBo",
+      "name": "伯伯┃二",
       "type": 3,
-      "api": "csp_WexV6DaShiXiongGuard",
+      "api": "csp_WexAiBoBoGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexV6TeGou",
-      "name": "太狗┆小二",
-      "type": 3,
-      "api": "csp_WexV6TeGouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexReBo",
-      "name": "热播┆小二",
-      "type": 3,
-      "api": "csp_WexReBoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexBoBo",
-      "name": "伯伯┆小二",
-      "type": 3,
-      "api": "csp_WexBoBoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "ManJuHongGuo",
-      "name": "红红┆小二",
+      "key": "ManJuAiHongGuo",
+      "name": "漫短┃二",
       "type": 3,
       "类型": "短剧",
-      "api": "csp_ManJuHongGuoGuard",
+      "api": "csp_ManJuAiHongGuoGuard",
       "searchable": 1,
       "changeable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "王",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
     },
     {
-      "key": "橘皮",
-      "name": "橘皮┆小盒",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 1,
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-      "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
+      "name": "二",
+      "type": 1,
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
     },
     {
-      "key": "剧评",
-      "name": "剧评┆小盒",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 1,
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-      "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
+      "name": "小",
+      "type": 1,
+      "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url="
     },
     {
-      "key": "柠檬",
-      "name": "柠檬┆小盒",
-      "type": 3,
-      "api": "csp_Nmvod",
-      "playerType": 2,
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-    },
-    {
-      "key": "农民",
-      "name": "农民┆小盒",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://ncstatic.clewm.net/rsrc/2026/0418/17/1d9136626610437ab0cac0dbe262d1ed.png;md5;4D860D06EC233DBCB891B76055F099D5",
-      "ext": {
-        "副标题": "保护正版，人人有责",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://vip.wwgz.cn:5200/;;!H"
-      }
-    },
-    {
-      "key": "旺旺",
-      "name": "旺旺┆小盒",
-      "type": 3,
-      "api": "csp_NongMin",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://ncstatic.clewm.net/rsrc/2026/0508/10/56d0b667615145949789418bff9f22a5.png"
-    },
-    {
-      "key": "狐狸电影",
-      "name": "狐狸┆小盒",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://ncstatic.clewm.net/rsrc/2026/0418/17/1d9136626610437ab0cac0dbe262d1ed.png;md5;4D860D06EC233DBCB891B76055F099D5",
-      "ext": {
-        "副标题": "保护正版，人人有责",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.budaichuchen.net/label/qq.html",
-        "线路数组": "<i class=\"fa ds-dianying\">&&</span>",
-        "播放数组": "anthology-list-play size\">&&</ul>",
-        "分类url": "https://www.budaichuchen.net/cupfox-list/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-        "分类": "短剧$5#电视剧$2#电影$1#动漫$4#综艺$3"
-      }
-    },
-    {
-      "key": "三秋影视",
-      "name": "三秋┆潇洒",
-      "type": 3,
-      "api": "csp_App3Q",
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "马猴影视",
-      "name": "马猴┆潇洒",
-      "type": 3,
-      "api": "csp_AppMH",
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "韩圈",
-      "name": "韩圈┆潇洒",
-      "type": 3,
-      "api": "csp_Hxq",
-      "ext": "http://www.小不点.com/api/2026/fishhxq.php",
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "橙子99",
-      "name": "橙子┆潇洒",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://113.31.180.218:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "6e8f3764a0644f3686ab5cdd57bcdf48",
-        "versionName": "4.3.1",
-        "name": "小橙子",
-        "package": "com.xchengzix.app",
-        "buildNumber": "2001",
-        "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "剧圈99",
-      "name": "剧圈┆潇洒",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://124.221.3.182:19987/app/bn",
-        "appkey": "d1f0c269eab74d93821fffc9befdbbba",
-        "versionName": "1.2.0",
-        "name": "剧圈圈",
-        "package": "com.qingtangxiaozhuan.xyz",
-        "buildNumber": "2002",
-        "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "双星99",
-      "name": "双星┆潇洒",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://175.178.65.250:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "f66f65db127e48449f073c2c6eb0f993",
-        "versionName": "6.4.5",
-        "name": "双子星动漫",
-        "package": "com.yingfu.mobile.android.pgsp",
-        "buildNumber": "2003",
-        "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "橘汁",
-      "name": "橘汁┆潇洒",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "橘汁",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.lxf.snzlcgtzxyx",
-        "host": "",
-        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-        "version": "3.0.2.1",
-        "decrypt": "1"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "华谊",
-      "name": "华谊┆潇洒",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "华谊",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
-        "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.muyue.tool",
-        "host": "",
-        "site": "https://vip.123pan.cn/1851089669/oss/az5.txt",
-        "version": "1.0.0.4",
-        "decrypt": "1"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "苹果",
-      "name": "苹果┆潇洒",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "小苹果",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "茉莉",
-      "name": "茉莉┆潇洒",
-      "type": 3,
-      "api": "csp_AppGet",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
-        "dataKey": "88689667dce61725",
-        "dataIv": "88689667dce61725"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "山楂影视",
-      "name": "山楂┆潇洒",
-      "type": 3,
-      "api": "csp_PianKu8",
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "永乐影视",
-      "name": "永乐┆潇洒",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-        "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
-        "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "骚火影视",
-      "name": "骚火┆潇洒",
-      "type": 3,
-      "api": "csp_SaoHuo",
-      "ext": "https://shdy5.us",
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
-    },
-    {
-      "key": "枫叶影视",
-      "name": "枫叶┆潇洒",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "手机",
-        "简介": "text cor3\">[*],&&</div>",
-        "图片": "data-src=\"&&\"[替换:amp;>>空]",
-        "主页url": "https://www.cd-zj.com/label/qq.html",
-        "副标题": "ft2\">&&</i>",
-        "线路数组": "<i class=\"fa ds-dianying\">&&</span>",
-        "播放数组": "anthology-list-play size\">&&</ul>",
-        "分类url": "https://www.cd-zj.com/cupfox-list/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
-      },
-      "jar": "https://img.51shazhu.com/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260724/mb4d/0X0/07241418.png"
+      "name": "帅",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
     }
   ],
   "doh": [
@@ -618,14 +343,6 @@
       "playerType": 2,
       "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "ua": "bingcha/1.1 (mianfeifenxiang) "
-    },
-    {
-      "name": "develop202",
-      "type": 0,
-      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "playerType": 2,
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "headers": [
