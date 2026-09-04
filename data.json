@@ -1,11 +1,11 @@
 {
-  "spider": "http://oss4liview.moji.com/thd_file/2026/08/31/a1e1f168a2a59d5786c5518dd82397f5.jpg;md5;9add56c3f166a7a98c3a8ace49937798",
+  "spider": "http://oss4liview.moji.com/thd_file/2026/09/01/bb1543fe5a028b997b400057e2f24922.jpg;md5;9dafc2b90091283453be78a10fa57a5c",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
-      "key": "NewDouBan",
-      "name": "🐮皮皮子自用🐮",
+      "key": "Douban",
+      "name": "自用",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -15,19 +15,8 @@
       "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
     },
     {
-      "key": "Doubana",
-      "name": "🐮豆豆🐮",
-      "type": 3,
-      "api": "csp_NewDouBanGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-    },
-    {
-      "key": "Doubana",
-      "name": "⬇️网盘先扫码⬇️",
+      "key": "Doubanaaaa",
+      "name": "豆豆",
       "type": 3,
       "api": "csp_NewDouBanGuard",
       "indexs": 1,
@@ -38,9 +27,21 @@
     },
     {
       "key": "Wexconfig",
-      "name": "配置┃小二",
+      "name": "配置",
       "type": 3,
-      "api": "csp_WexConfigGuard",
+      "api": "csp_PanConfigGuard",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "MyPan",
+      "name": "网盘",
+      "type": 3,
+      "api": "csp_MyPanGuard",
       "searchable": 0,
       "changeable": 0,
       "indexs": 0,
@@ -50,166 +51,241 @@
     },
     {
       "key": "二小",
-      "name": "指南┃小二‍",
+      "name": "💓‍指南┃4K💓‍",
       "type": 3,
-      "api": "csp_NewErXiaoGuard",
+      "api": "csp_AiNewXiaoPanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
       "key": "玩偶",
-      "name": "玩偶┃小二‍",
+      "name": "💓‍玩偶┃4K💓‍",
       "type": 3,
-      "api": "csp_NewWoggGuard",
+      "api": "csp_AiNewWoggGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "NewGuanYing",
-      "name": "观影┃小二",
+      "key": "AiNewGuanYing",
+      "name": "💓‍观影┃4K💓‍",
       "type": 3,
-      "api": "csp_NewGuanYingGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "timeout": 120
-    },
-    {
-      "key": "NewJuTou",
-      "name": "剧透┃小二",
-      "type": 3,
-      "api": "csp_NewJuTouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "NewHuBan",
-      "name": "虎斑┃小二",
-      "type": 3,
-      "api": "csp_NewHuBanGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "NewMuOu",
-      "name": "木偶┃小二",
-      "type": 3,
-      "api": "csp_NewMuOuGuard",
+      "api": "csp_AiNewGuanYingGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
       "key": "WexHanXiaoQuan",
-      "name": "韩剧┃小二",
+      "name": "💥韩剧┃秒播💥",
       "type": 3,
-      "api": "csp_WexHanXiaoQuanGuard",
+      "api": "csp_WexAiHanXiaoQuanGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexGuaZi",
-      "name": "瓜子┃小二",
+      "key": "WexAiGuaZi",
+      "name": "💥瓜子┃秒播💥",
       "type": 3,
-      "api": "csp_WexGuaZiGuard",
+      "api": "csp_WexAiGuaZiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiDuBoKu",
+      "name": "💥独播┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiDuBoKuGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiYueYue",
+      "name": "💥闪电┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiYueYueGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiWenCai",
+      "name": "💥文才┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiWenCaiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexFengYe4K",
+      "name": "💥小枫┃秒播💥",
+      "type": 3,
+      "api": "csp_WexFengYe4KGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
       "key": "賤賤",
-      "name": "贱片┃小二",
+      "name": "💥贱片┃秒播💥",
       "type": 3,
-      "api": "csp_WexJianPianGuard",
+      "api": "csp_WexAiJianPianGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexWenCai",
-      "name": "文才┃小二",
+      "key": "AppV7 | 大师兄",
+      "name": "💥师兄┃秒播💥",
       "type": 3,
-      "api": "csp_WexWenCaiGuard",
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Dsx",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 粉猪追剧",
+      "name": "💥粉猪┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Fz",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 咸鱼",
+      "name": "💥咸鱼┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Xy",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 追剧达人",
+      "name": "💥追剧┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Zjdr",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 小柚子",
+      "name": "💥柚子┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Xyz",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 小柠檬",
+      "name": "💥柠檬┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Xnm",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 蒙太奇",
+      "name": "💥太奇┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Mtq",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 零零七影视",
+      "name": "💥零七┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Llq",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 小柿子",
+      "name": "💥柿子┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Xsz",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "AppV7 | 小黄人",
+      "name": "💥黄人┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAppV7Guard",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "config": "AppV7Xhr",
+        "proxyImg": false
+      },
+      "timeout": 120
+    },
+    {
+      "key": "WexAiYiYs",
+      "name": "💥伊影┃秒播💥",
+      "type": 3,
+      "api": "csp_WexAiYiYsGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
     },
     {
-      "key": "WexDuBoKu",
-      "name": "独播┃小二",
+      "key": "WexAiReBo",
+      "name": "💥热播┃秒播💥",
       "type": 3,
-      "api": "csp_WexDuBoKuGuard",
+      "api": "csp_WexAiReBoGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
-    },
-    {
-      "key": "WexYueYue",
-      "name": "闪电┃小二",
-      "type": 3,
-      "api": "csp_WexYueYueGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexV6DaShiXiong",
-      "name": "师兄┃小二",
-      "type": 3,
-      "api": "csp_WexV6DaShiXiongGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexV6TeGou",
-      "name": "太狗┃小二",
-      "type": 3,
-      "api": "csp_WexV6TeGouGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexYiYs",
-      "name": "伊影┃小二",
-      "type": 3,
-      "api": "csp_WexYiYsGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexReBo",
-      "name": "热播┃小二",
-      "type": 3,
-      "api": "csp_WexReBoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexBoBo",
-      "name": "伯伯┃小二",
-      "type": 3,
-      "api": "csp_WexBoBoGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "橘皮",
-      "name": "橘皮┆小盒",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 1,
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-      "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
     },
     {
       "key": "剧评",
@@ -221,13 +297,13 @@
       "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
     },
     {
-      "key": "柠檬",
-      "name": "柠檬┆小盒",
+      "key": "WexAiBoBo",
+      "name": "🎇伯伯┃秒播🎇",
       "type": 3,
-      "api": "csp_Nmvod",
-      "playerType": 2,
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+      "api": "csp_WexAiBoBoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
       "key": "农民",
@@ -398,6 +474,28 @@
       }
     }
   ],
+  "parses": [
+    {
+      "name": "王",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
+    },
+    {
+      "name": "二",
+      "type": 1,
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
+    },
+    {
+      "name": "小",
+      "type": 1,
+      "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url="
+    },
+    {
+      "name": "帅",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+    }
+  ],
   "doh": [
     {
       "name": "Google",
@@ -552,23 +650,15 @@
     {
       "name": "Kimentanm",
       "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "url": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 2
     },
     {
       "name": "综合直播",
       "type": 0,
       "playerType": 2,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "url": "http://193.123.86.190:14888/TV/iptv.php",
       "ua": "bingcha/1.1 (mianfeifenxiang) "
-    },
-    {
-      "name": "develop202",
-      "type": 0,
-      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "playerType": 2,
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "headers": [
