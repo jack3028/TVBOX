@@ -1,65 +1,65 @@
 {
-  "spider": "http://oss4liview.moji.com/thd_file/2026/09/01/bb1543fe5a028b997b400057e2f24922.jpg;md5;9dafc2b90091283453be78a10fa57a5c",
-  "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
-  "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
-  "sites": [
-    {
-      "key": "Douban",
-      "name": "自用",
-      "type": 3,
-      "api": "csp_NewDouBanGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-    },
-    {
-      "key": "Doubanaaaa",
-      "name": "豆豆",
-      "type": 3,
-      "api": "csp_NewDouBanGuard",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
-    },
-    {
-      "key": "Wexconfig",
-      "name": "配置",
-      "type": 3,
-      "api": "csp_PanConfigGuard",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "MyPan",
-      "name": "网盘",
-      "type": 3,
-      "api": "csp_MyPanGuard",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "二小",
-      "name": "💓‍指南┃4K💓‍",
-      "type": 3,
-      "api": "csp_AiNewXiaoPanGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "玩偶",
+  "spider": "http://oss4liview.moji.com/thd_file/2026/10/10/9a35119b3c4b4ba86345e3ab35b017a0.jpg;md5;09c3693dd068fd9b586f45d7d9c71916",
+  "壁纸": "http://王二小放牛娃牛逼.999888987.xyz","wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
+  "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif","logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
+  "站点": ["sites": [
+    {{
+      "key": "豆瓣","key": "Douban",
+      "name": "自用","name": "自用",
+      "类型": 3,"type": 3,
+      "api": "csp_NewDouBanGuard","api": "csp_NewDouBanGuard",
+      "indexs": 1,"indexs": 1,
+      "可搜索": 0,"searchable": 0,
+      "quickSearch": 0,"quickSearch": 0,
+      "可筛选": 0,"filterable": 0,
+      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt""ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+    },},
+    {{
+      "key": "Doubanaaaa","key": "Doubanaaaa",
+      "name": "豆豆","name": "豆豆",
+      "类型": 3,"type": 3,
+      "api": "csp_NewDouBanGuard","api": "csp_NewDouBanGuard",
+      "indexs": 1,"indexs": 1,
+      "可搜索": 0,"searchable": 0,
+      "quickSearch": 0,"quickSearch": 0,
+      "可筛选": 0,"filterable": 0,
+      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt""ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+    },},
+    {{
+      "key": "Wexconfig","key": "Wexconfig",
+      "name": "配置","name": "配置",
+      "类型": 3,"type": 3,
+      "api": "csp_PanConfigGuard","api": "csp_PanConfigGuard",
+      "可搜索": 0,"searchable": 0,
+      "可更改": 0,"changeable": 0,
+      "indexs": 0,"indexs": 0,
+      "style": {"style": {
+        "类型": "列表""type": "list"
+      }}
+    },},
+    {{
+      "key": "MyPan","key": "MyPan",
+      "name": "网盘","name": "网盘",
+      "类型": 3,"type": 3,
+      "api": "csp_MyPanGuard","api": "csp_MyPanGuard",
+      "可搜索": 0,"searchable": 0,
+      "可更改": 0,"changeable": 0,
+      "indexs": 0,"indexs": 0,
+      "style": {"style": {
+        "类型": "列表""type": "list"
+      }}
+    },},
+    {{
+      "key": "二小","key": "二小",
+      "name": "💓指南┃4K💓","name": "💓‍指南┃4K💓‍",
+      "类型": 3,"type": 3,
+      "api": "csp_AiNewXiaoPanGuard","api": "csp_AiNewXiaoPanGuard",
+      "可搜索": 1,"searchable": 1,
+      "quickSearch": 1,"quickSearch": 1,
+      "可更改": 0"changeable": 0
+    },},
+    {{
+      "key": "玩偶","key": "玩偶",
       "name": "💓‍玩偶┃4K💓‍",
       "type": 3,
       "api": "csp_AiNewWoggGuard",
